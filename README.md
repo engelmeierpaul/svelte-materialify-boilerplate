@@ -2,31 +2,31 @@
 
 ---
 
-#Get the boilderplate
+# Get the boilderplate
 ```bash
 npx degit engelmeierpaul/svelte-materialify-boilerplate my-project-name
 ```
 
-#Install dependencies
+# Install dependencies
 ```bash
 cd my-project-name
 yarn install
 ```
 
-#Run, Build, Start
+# Run, Build, Start
 You can either run the app using the integrated dev server or build the app for production and then run it using sirv.
 
-###Dev server
+### Dev server
 ```bash
 yarn run dev
 ```
 
-###Build
+### Build
 ```bash
 yarn run build
 ```
 
-###Sirv
+### Sirv
 ```bash
 yarn run start
 ```
