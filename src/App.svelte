@@ -1,12 +1,11 @@
 <script lang="ts">
     import {MaterialApp} from 'svelte-materialify';
-    import Switch from 'svelte-materialify/src/components/Switch';
+    import Switch from 'svelte-materialify/dist/components/Switch';
 
     let darkmode = true;
-    $: theme = darkmode ? 'dark' : 'light';
 </script>
 
-<MaterialApp {theme}>
+<MaterialApp theme="{darkmode ? 'dark' : 'light'}">
   <main>
     <h1>Svelte+Materialify!</h1>
     <Switch class="justify-center" color="red" bind:checked={darkmode} inset>Dark Mode</Switch>
@@ -22,10 +21,6 @@
     padding: 1em;
     max-width: 240px;
     margin: 0 auto;
-  }
-
-  div {
-    background-color: #00acc1 !important;
   }
 
   h1 {
