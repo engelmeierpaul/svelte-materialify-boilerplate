@@ -1,13 +1,14 @@
 <script lang="ts">
     import {MaterialApp} from 'svelte-materialify';
 
-    let theme = 'dark';
+    let theme: 'light' | 'dark' = 'dark';
 </script>
 
 <MaterialApp theme="{theme}">
   <main>
     <h1>Svelte+Materialify!</h1>
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+    <p>Visit the <a href="https://svelte-materialify.vercel.app/">Materialify Website</a> to learn about Materialify and its components.</p>
   </main>
 </MaterialApp>
 
