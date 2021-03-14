@@ -4,7 +4,7 @@
 
 # Get the boilderplate
 ```bash
-npx degit engelmeierpaul/svelte-materialify-boilerplate my-project-name
+npx degit engelmeierpaul/svelte-materialify my-project-name
 ```
 
 # Install dependencies
